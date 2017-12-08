@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	for range time.Ticker(1 * time.Second) {
+	for range time.Tick(1 * time.Second) {
 		log.Println("logging a message")
 	}
 }
